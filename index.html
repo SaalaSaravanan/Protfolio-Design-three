@@ -23,6 +23,11 @@
 
   </head>
   <body>
+
+    <button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top">
+       <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M480-528 296-344l-56-56 240-240 240 240-56 56-184-184Z"/></svg>
+    </button>
+
     <header class="header section">
       <div class="hero">
         <a href="#home"> <button class="initial">P</button> </button></a>
@@ -358,6 +363,18 @@
 
 
     <script src="./app.js"></script>
+    
+  <script>
+    const btn = document.getElementById("scrollTopBtn");
+
+    window.onscroll = function () {
+      btn.style.display = window.scrollY > 300 ? "flex" : "none";
+    };
+
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  </script>
 
   </body>
 </html>
