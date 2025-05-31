@@ -1,0 +1,69 @@
+
+/*
+  © 2025 Livinkumar S. All rights reserved.
+  This CSS file is part of the personal portfolio project.
+  Unauthorized copying, distribution, or modification is strictly prohibited.
+*/
+
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}
+
+@keyframes animateSpan {
+  0% {
+    transform: scaleX(0);
+  }
+  20% {
+    transform: scaleX(1);
+  }
+  80% {
+    transform: scaleX(1);
+  }
+  100% {
+    transform: scaleX(0);
+  }
+}
+
+@keyframes leftToRight {
+  0% {
+    transform: scaleX(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    scale: 0;
+    opacity: 0;
+  }
+  100% {
+    scale: 1;
+    opacity: 1;
+  }
+}
+
+@keyframes zoomInSvg {
+  0% {
+    scale: 0;
+    opacity: 0;
+  }
+  100% {
+    scale: 1;
+    opacity: .3;
+  }
+}
+
+
+
+/*
+  © 2025 Livinkumar S. All rights reserved.
+  This CSS file is part of the personal portfolio project.
+  Unauthorized copying, distribution, or modification is strictly prohibited.
+*/
